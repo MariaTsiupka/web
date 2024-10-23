@@ -1,0 +1,166 @@
+.hero-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    font-style: normal;
+    padding: 0;
+    margin-left: 230px; 
+    margin-top: 110px; 
+    font-family:'DM Serif Display';
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.header__contact{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 235px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family:"Rubik";
+    background-color: #EE4D47;
+    padding:30px;
+    border-radius: 5px;
+    height:50px;
+    border: none;
+}
+.header__contact img {
+    margin-left: 24px;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.main-car {
+    position: absolute;
+    top: 600px;
+}
+
+.content{
+    color:#EE4D47 ;
+    font-family:'Rubik';
+    margin-top: 700px;
+    padding-left: 250px;
+    font-size: 24px;
+}
+
+.content2{
+    color: #402B2B;
+    font-family:'Rubik';
+    margin-top: 50px;
+    padding-left:250px;
+    line-height: 40px;
+    font-family: 18px;
+}
+.man{
+    display: flex;
+    gap: 100px;
+    justify-content: flex-end;
+    margin-top: -300px;
+
+}
+.content3 {
+    color: #402B2B;
+    font-size: 24px;
+    font-family: "Rubik";
+    font-weight: 500px;
+    line-height: 36px;
+    display: flex;
+    align-items:center;
+    max-width: 500px;
+    min-height: 160px;
+    border-left: 10px solid#ED4D47 ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 50px;
+    background-color:#FCDDD4;
+}
+.girl{
+    padding-left: 100px;
+    
+}
+.content5{
+    color: #EE4D47;
+    font-size: 24px;
+    font-family:"Rubik";
+    font-weight: 700;
+    margin-left: 1200px;
+    margin-top: -600px;
+}
+.content6{
+    color: #402B2B;
+    font-size: 18px;
+    font-family: 'Rubik';
+    font-weight: 300;
+    line-height: 40px;
+    margin-left: 1200px;
+}
+.content7{
+    color: #EE4D47;
+    font-size: 24px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.content8{
+    color: #402B2B;
+    font-size: 48px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    line-height: 67.20px;
+    text-align: center;
+}
+
+.Clients {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+.client1, .client2, .client3 {
+    width: 20%;
+    color: #402B2B;
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 300;
+    line-height: 30px;
+    background-color: wheat;
+    padding: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.client1-name, .client2-name, .client3-name {
+    margin-top: 10px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.client1-name img, .client2-name img, .client3-name img {
+    margin-right: 20px;
+}
+
+.name1, .name2, .name3 {
+    font-weight: 700;
+    color: #402B2B;
+    font-size: 16px;
+    font-family:"Roboto";
+}
