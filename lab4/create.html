@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/slyles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+    <title>Lab 4</title>
+    <style>
+        .main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+
+        #create_perfume_form {
+        padding: 20px;
+         width: 350px;
+        margin-top: 10px;
+        }
+
+        .form_header {
+        text-align: center;
+        font-weight: 600;
+        padding: 15px;
+        }
+
+        .form_body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        }
+        #perfume_type {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        }
+        input, textarea, button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        }
+
+        textarea {
+        height: 100px;
+        }
+
+        button {
+        margin-top: 20px;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        }
+
+        button:hover {
+        background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <p class="header_title"></p>
+                "World of Fragrances"
+            </p>
+            <nav id="nav-links" class="header_nav">
+                <ul>
+                    <li class="header_nav-item"><a href="index.html">My Perfume</a></li>
+                    <li class="header_nav-item"><a href="create.html">Create Perfume</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <section class = "main" id="create_perfume_form">
+            <div class="form_header">
+                <h2>Create Perfume</h2>
+            </div>
+            <div class="form_body">
+                <form id="form">
+                    <img src="images/carolina-herrera-good-girl___220407.webp" alt="Perfume Image" class="perfume_image">
+                    <label for="perfume_title">Title</label>
+                    <input type="text" id="perfume_title" name="perfume_title" placeholder="Enter perfume name">
+        
+                    <label for="perfume_description">Description</label>
+                    <textarea id="perfume_description" name="perfume_description" placeholder="Enter description"></textarea>
+        
+                    <label for="perfume_expense">Daily Expense ($)</label>
+                    <input type="number" id="perfume_expense" name="perfume_expense" value="5" min="0">
+        
+                    <label for="perfume_type">Perfume Type</label>
+                    <select id="perfume_type" name="perfume_type">
+                    <option value="floral">Floral</option>
+                    <option value="woody">Woody</option>
+                    <option value="citrus">Citrus</option>
+                    <option value="fresh">Fresh</option>
+                    <option value="Oriental">Oriental</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <script src="create.js"></script> 
+    </main>
+</body>
+</html>
