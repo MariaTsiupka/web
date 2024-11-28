@@ -1,0 +1,46 @@
+
+li {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+
+    background-color: #FEF8F5;
+    margin: 0;
+    padding: 0;
+}
+header, main, footer{
+    display: flex;
+    
+}
+
+.header, .main, .footer {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+}
