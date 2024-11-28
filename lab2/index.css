@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Заголовок і логотип */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 1.8em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Секції з підзаголовками */
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Стилі для списків */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Карта */
+iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+    border: none;
+}
+
+/* Посилання */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005bb5;
+}
+
+/* Контактна інформація */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
