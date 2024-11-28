@@ -1,0 +1,74 @@
+.home {
+    display: flex;
+    margin: 60px 180px 100px 180px;
+}
+
+.home-img {
+    width: 390px;
+    height: 300px;
+}
+
+.home-description {
+    margin-left: 100px;
+}
+.home-logo {
+    width: 390px;
+    height: 300px;
+}
+.title {
+    margin-top: 95px;
+    font-size: 35px;
+    color: palevioletred;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    font-size: 20px;
+
+}
+/* Стиль для контейнера на головній сторінці */
+.home-page-container {
+    height: 550px; /* Встановіть потрібну висоту для головної сторінки */
+    overflow: hidden; /* Опційно, щоб приховати зайвий контент */
+}
+
+/* Зберігаємо стиль для каталогу */
+.perfumes-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #d3d3d3;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.perfumes-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Стиль для кнопки "view more" на головній сторінці */
+.home-page-container .view-more-btn {
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    bottom: 15px; /* Відступ знизу, щоб зафіксувати на одному рівні */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+

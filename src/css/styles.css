@@ -1,0 +1,7 @@
+@import "../components/navigation/navigation.css";
+@import "../components/home/home.css";
+@import "../components/footer/footer.css";
+@import "../components/catalog/catalog.css";
+@import "../components/filter/filter.css";
+@import "../components/item/item.css";
+@import "../components/cart/cart.css"

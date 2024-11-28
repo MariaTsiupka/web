@@ -1,0 +1,40 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.selects {
+    display: flex;
+    gap: 20px;
+}
+
+.select {
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.apply-btn {
+    width: 180px;
+    height: 40px;
+    color: black;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.apply-btn:hover {
+    background-color: pink;
+    color: white;
+}

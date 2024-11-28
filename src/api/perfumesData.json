@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/img/5b100940086b3671895942.webp",
+    "title": "Lancôme La Vie Est Belle",
+    "description": "Парфумована вода Lancôme La Vie Est Belle – це символ свободи та щастя, данина всім життєвим принадам.",
+    "price": 3900,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 7
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 27
+      },
+      {
+        "type": "Citrus",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "/img/yves-saint-laurent-libre___220729.webp",
+    "title": "Yves Saint Laurent Libre",
+    "description": "Парфумована вода Yves Saint Laurent Libre дасть зрозуміти, що ви — та, хто вміє сказати «ні».",
+    "price": 4100,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 0
+      },
+      {
+        "type": "Floral",
+        "amount": 18
+      },
+      {
+        "type": "Woody",
+        "amount": 8
+      },
+      {
+        "type": "Citrus",
+        "amount": 9
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "/img/bottega-veneta-bottega-veneta___170626.webp",
+    "title": "Bottega Veneta Bottega Veneta",
+    "description": "Досконало витончена, надзвичайно жіночна та непідвладна часу - це парфумована вода Bottega Veneta.",
+    "price": 3880,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 10
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 10
+      },
+      {
+        "type": "Citrus",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "/img/burberry-her___181012.webp",
+    "title": "Burberry Her",
+    "description": "Парфумована вода Carolina Herrera Good Girl завжди підкреслюватиме саме ті риси вашої жіночності, які ви захочете.",
+    "price": 3600,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 9
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 10
+      },
+      {
+        "type": "Citrus",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "/img/givenchy-linterdit___220608.webp",
+    "title": "GIVENCHY L’Interdit",
+    "description": "Парфумована вода для жінок Givenchy L’Interdit подарує вам відчуття хвилювання від близькості забороненого.",
+    "price": 4300,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 10
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 10
+      },
+      {
+        "type": "Citrus",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "/img/carolina-herrera-good-girl___220407.webp",
+    "title": "Carolina Herrera Good Girl",
+    "description": "Ви краще знаєте, коли саме взути високі підбори та одягнути звабливе плаття, а коли — балетки та ніжну сукню.",
+    "price": 4500,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 10
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 10
+      },
+      {
+        "type": "Citrus",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "imageUrl": "/img/burberry-goddess___230724.webp",
+    "title": "Burberry.Goddess",
+    "description": "Парфумована вода для жінок Burberry Goddess  — це аромат, у який ви неодмінно закохаєтеся і з яким не бажатимете розлучатися ні на мить.",
+    "price": 4250,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 9
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 10
+      },
+      {
+        "type": "Citrus",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "imageUrl": "/img/chloe-nomade___221109.webp",
+    "title": "Chloé Nomade",
+    "description": "Богемська, нестримна, пригодницька та незабутня — це все парфумована вода Chloé Nomade. Відправтесь й ви в таємничу подорож, де пізнаєте досі недосліджені горизонти.",
+    "price": 2900,
+    "stock": [
+      {
+        "type": "Fresh",
+        "amount": 10
+      },
+      {
+        "type": "Floral",
+        "amount": 10
+      },
+      {
+        "type": "Woody",
+        "amount": 6
+      },
+      {
+        "type": "Citrus",
+        "amount": 10
+      }
+    ]
+  }
+]
