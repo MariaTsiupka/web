@@ -1,0 +1,67 @@
+.item-decriptions {
+    display: flex;
+    margin: 20px 70px 0 70px;
+}
+.item-img {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
+
+.item-description {
+    width: 550px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.item-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 70px 50px 70px;
+}
+
+.item-selects {
+    display: flex;
+}
+.item-select {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.back-btn,
+.add-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    background-color: pink;
+    outline: none;
+    box-shadow: none;
+    margin-right: 20px;
+}
+
+.link-2 {
+    text-decoration: none;
+    display: inline-block;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+
+.back-btn:focus,
+.add-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
