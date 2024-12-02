@@ -129,7 +129,9 @@ function Cart() {
                 <Link className="link" to="/catalog">
                     <Button className="back-btn" text="Back to Catalog" />
                 </Link>
-                <Button className="add-btn" text="Continue" />
+                <Link className="link" to="/checkout">
+                    <Button className="add-btn" text="Continue"/>
+                </Link>
             </div>
         </div>
     );
