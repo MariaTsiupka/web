@@ -1,0 +1,74 @@
+.checkout-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 31, 31);
+    margin-bottom: 40px;
+}
+
+.field-first-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.field-last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fields-email-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.field-email {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.field-phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-adress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-first-name {
+    width: 225px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border-width: 0.6px;
+    margin-top: 3px;
+}
+
+.input-adress {
+    width: 506px;
+    height: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border-width: 0.6px;
+    margin-top: 3px;
+}
+
+.label-adress {
+    margin-right: 472px;
+}

@@ -4,4 +4,6 @@
 @import "../components/catalog/catalog.css";
 @import "../components/filter/filter.css";
 @import "../components/item/item.css";
-@import "../components/cart/cart.css"
+@import "../components/cart/cart.css";
+@import "../components/check/checkout.css";
+@import "../components/success/success.css";

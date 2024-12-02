@@ -1,0 +1,36 @@
+.success-img {
+    width: 120px;
+    display: flex;
+    margin: 50px auto 20px auto;
+}
+
+.txt-success {
+    text-align: center;
+}
+
+.txt-description {
+    text-align: center;
+    color: rgb(78, 77, 77);
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.go-back-btn {
+    display: block;
+    width: 180px;
+    height: 34px;
+    color: #454646;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #454646;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 50px auto 80px auto;
+}
+
+.go-back-btn:hover {
+    color: white;
+    border-color: #454646;
+    background-color: #454646;
+}
